@@ -1,0 +1,28 @@
+
+Call:
+lm(formula = biomass_2[ratio_1 >= 36] ~ ratio_1[ratio_1 >= 36] * 
+    ratio_2[ratio_1 >= 36])
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.25381 -0.34009 -0.04759  0.26882  1.68975 
+
+Coefficients:
+                                                Estimate Std. Error t value
+(Intercept)                                    2.1634170  0.3324796   6.507
+ratio_1[ratio_1 >= 36]                        -0.0151318  0.0068193  -2.219
+ratio_2[ratio_1 >= 36]                        -0.0071416  0.0093318  -0.765
+ratio_1[ratio_1 >= 36]:ratio_2[ratio_1 >= 36]  0.0001963  0.0001915   1.025
+                                              Pr(>|t|)    
+(Intercept)                                   3.86e-10 ***
+ratio_1[ratio_1 >= 36]                          0.0273 *  
+ratio_2[ratio_1 >= 36]                          0.4448    
+ratio_1[ratio_1 >= 36]:ratio_2[ratio_1 >= 36]   0.3064    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4991 on 263 degrees of freedom
+  (33 observations deleted due to missingness)
+Multiple R-squared:  0.03506,	Adjusted R-squared:  0.02406 
+F-statistic: 3.186 on 3 and 263 DF,  p-value: 0.02436
+
