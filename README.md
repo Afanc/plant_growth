@@ -21,6 +21,6 @@ multiple projections :
 
 some heatmaps :
 
-!(hmap)[Biomass_var_TA.png)
+![hmap](Biomass_var_TA.png)
 
 please contact me if you'd like the whole report.
